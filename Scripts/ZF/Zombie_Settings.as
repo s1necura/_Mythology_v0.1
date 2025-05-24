@@ -18,8 +18,8 @@ void onInit(CRules@ this)
 	AddIcons();
 	AddFonts();
 	
-	SetupGameplayEvents(this);
-	SetupScrolls(this);
+	//SetupGameplayEvents(this);
+	//SetupScrolls(this);
 	
 	this.addCommandID("server_softban"); //Zombie_SoftBans.as
 }
